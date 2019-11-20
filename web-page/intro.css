@@ -1,0 +1,106 @@
+.head {
+    font-size: 2em;
+    text-align: center;
+    font-weight: bold;
+}
+
+.container {
+   position: relative;
+   overflow: hidden;
+}
+
+.container .back-img {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: auto;
+    opacity: 0.4;
+}
+
+.container .intro-para {
+    padding: 100px;
+    position: relative;
+    z-index: 2;
+}
+
+.intro-para {
+    width: 30%;
+    margin: auto;
+    line-height: 25px;
+    font-size: 17px;  
+    position: relative;
+    
+}
+
+
+.fun-facts {
+    /* background-color: red;; */
+    position: relative;
+    top: 100px;
+    width: 90%;
+    margin: auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-column-gap: 150px;
+    padding-bottom: 50px;
+}
+
+
+
+.answer {
+    line-height: 25px;
+    font-size: 17px;
+}
+
+.heading {
+    font-size: 25px;
+    font-weight: bold;
+    font-family: 'Franklin Gothic Medium';
+    padding-bottom: 15px;
+}
+
+img {
+    width: 70px;
+}
+
+
+table, th, td {
+    border: 1px solid black;
+    border-collapse: collapse;
+  }
+
+  th, td {
+      padding: 10px;
+  }
+
+
+  
+  table  {
+      margin: auto;
+      position: relative;
+      margin-top: 100px;
+    }
+
+.button {
+    width: 90px;
+    height: 45px;
+    margin-bottom: 100px;
+    position: relative;
+    left: 20.5%;
+    font-weight: bold;
+    font-size: 15px;
+    color: honeydew;
+    border-bottom-left-radius: 25%;
+    border-bottom-right-radius: 25%;
+    border-top-left-radius: 25%;
+    border-top-right-radius: 25%;
+}
+
+.button1 {
+    background-color: rgb(92, 165, 92);
+}
+
+.button2 {
+    background-color: gray;
+}
